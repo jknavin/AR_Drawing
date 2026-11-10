@@ -9,10 +9,3 @@ Free, offline, native Android app (Kotlin, CameraX). Min Android 10.
 
 ## Get the APK
 
-**Option A - GitHub (no Android Studio needed)**
-1. Create a new GitHub repo and upload this whole folder (keep `.github/workflows/build.yml`).
-2. Open the repo's Actions tab, run "Build APK" (it also runs on every push).
-3. When it finishes, download the `ARTrace-debug-apk` artifact, unzip, and install `app-debug.apk`.
-
-**Option B - Android Studio**
-Open this folder, wait for Gradle sync, press Run (or Build > Build APK).
